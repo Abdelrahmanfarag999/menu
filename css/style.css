@@ -1,0 +1,132 @@
+#home {
+    background-color: #000;
+}
+
+#searchPage {
+    background-color: #000;
+}
+
+/* body {
+    background-color: aqua;
+    color: aqua;
+} */
+.menu {
+    z-index: 9999;
+}
+
+.fa-xmark {
+    cursor: pointer;
+}
+
+.iqonMenu {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 70px;
+}
+
+.nav {
+    background-color: rgb(18, 20, 14);
+    height: 100vh;
+    width: 0px;
+    white-space: nowrap;
+}
+
+.navs a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navs li {
+    padding: 10px 0px;
+}
+
+img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.layer {
+    background-color: rgba(231, 231, 231, 0.696);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.meals:hover .layer {
+    transform: translateY(-100%);
+    background-color: #e3e3e379
+}
+
+#charSearch {
+    background-color: #00000000;
+    color: #fff;
+}
+
+#mealSearch {
+    background-color: #000;
+    color: #fff;
+}
+
+#mealSearch::placeholder {
+    color: rgba(96, 97, 120, 0.637);
+}
+
+#charSearch::placeholder {
+    color: rgba(96, 97, 120, 0.637);
+}
+
+#IngredientsShow i {
+    font-size: 80px;
+}
+
+.valid {
+    height: 50px;
+    background-color: #FED211;
+}
+
+/* loading */
+
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px dotted #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+    z-index: 999999;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spans {
+    display:flex;
+    flex-wrap: wrap;
+}
+.spans span {
+    background-color: #FED211;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 3px;
+    margin: 10px 5px;
+}
+.pointer{
+    cursor: pointer;
+}
